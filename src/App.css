@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7E8098
+light green: #A3C4BC
+*/
+
+
+.wrapper{
+  height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#258ea6;
+}
+
+.form-wrapper{
+  width:400px;
+  display:flex;
+  flex-direction:column;
+  padding:20px 20px;
+  background:#fff;
+  border-radius:10px;
+  box-shadow:0px 10px 50px #555;
+}
+
+h1{text-align:center; font-weight:normal; padding:0px 0px 15px; margin:0px; font-size:30px;}
+label{display:block; padding:0px 0px 3px; font-size:14px; color:#000;}
+.email{clear:both;}
+.errorMessage{color:#f30; font-size:12px; position:relative; top:-6px;}
+.firstName input, .lastName input, .email input, .password input{margin:0px 0px 12px; padding:8px; font-size:14px; border-radius:5px; border:1px solid #ccc; width:100%; box-sizing:border-box;}
+.error{border:1px solid #f30 !important;}
+.firstName{width:48%; float:left;}
+.lastName{width:48%; float:right;}
+.createAccount{width:100%; text-align:center; margin:5px 0px 0px 0px;}
+.createAccount button{border-radius:5px; border:2px solid #fff; background:#519E8A; cursor:pointer; cursor:pointer; color:#fff; text-align:center; padding:5px;
+  width:100%; box-sizing:border-box; padding:10px 5px; font-size:16px; margin:0px 0px 5px 0px; }
+.createAccount button:hover{border:2px solid #519E8A; background:#fff; color:#519E8A;}
